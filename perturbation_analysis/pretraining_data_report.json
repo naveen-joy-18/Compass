@@ -1,0 +1,21 @@
+{
+  "pseudobulk_profiles": 120,
+  "profile_rows_gene_by_guide": 3951736,
+  "descriptive_contrast_rows": 0,
+  "samples_with_profiles": [
+    "GSM2406675_10X001",
+    "GSM2406677_10X005",
+    "GSM2406681_10X010"
+  ],
+  "samples_with_control_contrasts": [],
+  "statistical_limitation": "This archive provides one pooled experiment per sample. Cell-level counts are not independent biological replicates. Profiles from unverified guide identities are exploratory only. Contrasts are generated only when both perturbation and negative-control mappings are explicitly verified. No inferential p-values, FDR values, or functional compensation labels are generated.",
+  "supervised_training_warning": "Do not treat each guide identity as a supervised class with one pseudobulk profile. A single profile per guide does not provide independent within-class training/test examples. Cell-level random splits would risk leakage and pseudoreplication. Additional biological replicates or independent perturbation experiments are needed for defensible supervised generalization.",
+  "next_requirements": [
+    "Resolve guide-to-target mappings from original supplementary guide annotations.",
+    "Verify negative controls before interpreting perturbation-versus-control contrasts.",
+    "Determine whether independent biological replicates exist in the study design.",
+    "Use replicate-aware pseudobulk differential expression if replicate data exist.",
+    "Obtain independent functional evidence before assigning compensation labels.",
+    "Do not train a supervised guide classifier from one pseudobulk profile per guide."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "sequence_features_available": false,
+  "network_features_available": false,
+  "expression_features_available": true,
+  "dependency_features_available": true,
+  "functional_features_available": false,
+  "external_validation_available": false,
+  "cross_celltype_predictions_available": false,
+  "gene_function_terms_available": false,
+  "novel_predictions_are_experimental_facts": false,
+  "classification_target": "independently curated compensation evidence labels",
+  "cv": "5-fold StratifiedGroupKFold grouped by target_gene"
+}

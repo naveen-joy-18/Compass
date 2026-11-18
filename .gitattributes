@@ -1,0 +1,4 @@
+downstream_validation/all_ranked_candidate_predictions.csv filter=lfs diff=lfs merge=lfs -text
+preprocessed/CRISPRGeneEffect_matched.csv.gz filter=lfs diff=lfs merge=lfs -text
+preprocessed/Expression_matched.csv.gz filter=lfs diff=lfs merge=lfs -text
+perturbation_analysis/GSE90546_guide_pseudobulk_profiles.csv.gz filter=lfs diff=lfs merge=lfs -text

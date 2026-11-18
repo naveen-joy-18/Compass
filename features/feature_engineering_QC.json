@@ -1,0 +1,31 @@
+{
+    "models": 1123,
+    "genes": 18247,
+    "gene_level_features": 6,
+    "candidate_pairs": 362862,
+    "top_k": 10,
+    "expression_neighbor_targets": 18244,
+    "dependency_neighbor_targets": 18247,
+    "pair_features": [
+        "target_gene",
+        "candidate_gene",
+        "target_expression_mean",
+        "candidate_expression_mean",
+        "target_expression_std",
+        "candidate_expression_std",
+        "target_dependency_mean",
+        "candidate_dependency_mean",
+        "target_dependency_std",
+        "candidate_dependency_std",
+        "target_dependency_missing_fraction",
+        "candidate_dependency_missing_fraction",
+        "expression_correlation",
+        "dependency_correlation",
+        "expression_mean_difference",
+        "dependency_mean_difference",
+        "candidate_source"
+    ],
+    "correlation_missing_value_handling": "Per-gene mean imputation for correlation calculation only",
+    "compensation_labels_created": false,
+    "interpretation": "Candidate pairs are statistical neighbors, not validated compensatory relationships."
+}

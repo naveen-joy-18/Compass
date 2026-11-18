@@ -1,0 +1,406 @@
+{
+  "source_directory": "C:\\Users\\Naveen Joy\\Downloads\\GSE90546_RAW",
+  "project_directory": "C:\\Users\\Naveen Joy\\Desktop\\BA",
+  "destination_directory": "C:\\Users\\Naveen Joy\\Desktop\\BA\\datasets\\GSE90546_RAW",
+  "qc_directory": "C:\\Users\\Naveen Joy\\Desktop\\BA\\preprocessed\\GSE90546_QC",
+  "sample_count": 3,
+  "matching_file_count": 12,
+  "complete_sample_count": 3,
+  "incomplete_sample_count": 0,
+  "missing_file_records": [],
+  "sample_qc": [
+    {
+      "sample_id": "GSM2406675_10X001",
+      "has_barcodes": true,
+      "has_cell_identities": true,
+      "has_genes": true,
+      "has_matrix": true,
+      "complete_four_file_set": true,
+      "gene_rows": 35635,
+      "genes_preview": [
+        "ENSG00000243485\tMIR1302-10",
+        "ENSG00000237613\tFAM138A",
+        "ENSG00000186092\tOR4F5"
+      ],
+      "barcode_rows": 5768,
+      "barcodes_preview": [
+        "AAACATACACCGAT-1",
+        "AAACATACAGAGAT-1",
+        "AAACATACCAGAAA-1"
+      ],
+      "matrix_rows": 35635,
+      "matrix_columns": 5768,
+      "matrix_nonzero_entries": 14751450,
+      "matrix_dtype": "int64",
+      "matrix_orientation": "genes_by_cells",
+      "identity_rows": 5758,
+      "identity_columns": 7,
+      "identity_column_names": "cell BC | guide identity | read count | UMI count | coverage | good coverage | number of cells",
+      "candidate_annotation_columns": "cell BC | guide identity | number of cells",
+      "identity_rows_match_barcodes": false
+    },
+    {
+      "sample_id": "GSM2406677_10X005",
+      "has_barcodes": true,
+      "has_cell_identities": true,
+      "has_genes": true,
+      "has_matrix": true,
+      "complete_four_file_set": true,
+      "gene_rows": 32738,
+      "genes_preview": [
+        "ENSG00000243485\tMIR1302-10",
+        "ENSG00000237613\tFAM138A",
+        "ENSG00000186092\tOR4F5"
+      ],
+      "barcode_rows": 15006,
+      "barcodes_preview": [
+        "AAACATACACTCAG-1",
+        "AAACATACTCCTAT-1",
+        "AAACATTGCAGAGG-1"
+      ],
+      "matrix_rows": 32738,
+      "matrix_columns": 15006,
+      "matrix_nonzero_entries": 63553399,
+      "matrix_dtype": "float64",
+      "matrix_orientation": "genes_by_cells",
+      "identity_rows": 14856,
+      "identity_columns": 7,
+      "identity_column_names": "cell BC | guide identity | read count | UMI count | coverage | good coverage | number of cells",
+      "candidate_annotation_columns": "cell BC | guide identity | number of cells",
+      "identity_rows_match_barcodes": false
+    },
+    {
+      "sample_id": "GSM2406681_10X010",
+      "has_barcodes": true,
+      "has_cell_identities": true,
+      "has_genes": true,
+      "has_matrix": true,
+      "complete_four_file_set": true,
+      "gene_rows": 32738,
+      "genes_preview": [
+        "ENSG00000243485\tMIR1302-10",
+        "ENSG00000237613\tFAM138A",
+        "ENSG00000186092\tOR4F5"
+      ],
+      "barcode_rows": 65337,
+      "barcodes_preview": [
+        "AAACATACAAGATG-1",
+        "AAACATACACCTAG-1",
+        "AAACATACTTCCCG-1"
+      ],
+      "matrix_rows": 32738,
+      "matrix_columns": 65337,
+      "matrix_nonzero_entries": 237812947,
+      "matrix_dtype": "float64",
+      "matrix_orientation": "genes_by_cells",
+      "identity_rows": 65257,
+      "identity_columns": 7,
+      "identity_column_names": "cell BC | guide identity | read count | UMI count | coverage | good coverage | number of cells",
+      "candidate_annotation_columns": "cell BC | guide identity | number of cells",
+      "identity_rows_match_barcodes": false
+    }
+  ],
+  "identity_summaries": {
+    "GSM2406675_10X001": {
+      "rows": 5758,
+      "columns": 7,
+      "column_names": [
+        "cell BC",
+        "guide identity",
+        "read count",
+        "UMI count",
+        "coverage",
+        "good coverage",
+        "number of cells"
+      ],
+      "dtypes": {
+        "cell BC": "str",
+        "guide identity": "str",
+        "read count": "int64",
+        "UMI count": "int64",
+        "coverage": "float64",
+        "good coverage": "bool",
+        "number of cells": "int64"
+      },
+      "preview": [
+        {
+          "cell BC": "GTGTCAGATCGTTT-1",
+          "guide identity": "62(mod)_pBA581",
+          "read count": "10831",
+          "UMI count": "633",
+          "coverage": "17.11058452",
+          "good coverage": "True",
+          "number of cells": "1"
+        },
+        {
+          "cell BC": "CTACTCCTCTCCAC-1",
+          "guide identity": "EP300_pDS268",
+          "read count": "9277",
+          "UMI count": "466",
+          "coverage": "19.90772532",
+          "good coverage": "True",
+          "number of cells": "1"
+        },
+        {
+          "cell BC": "TTCTTACTCTGAAC-1",
+          "guide identity": "EP300_pDS268",
+          "read count": "7426",
+          "UMI count": "437",
+          "coverage": "16.99313501",
+          "good coverage": "True",
+          "number of cells": "1"
+        },
+        {
+          "cell BC": "CAGCCTTGATGACC-1",
+          "guide identity": "62(mod)_pBA581",
+          "read count": "5979",
+          "UMI count": "314",
+          "coverage": "19.04140127",
+          "good coverage": "True",
+          "number of cells": "2"
+        },
+        {
+          "cell BC": "CAGTTGGAAATGCC-1",
+          "guide identity": "BHLHE40_pDS258",
+          "read count": "5661",
+          "UMI count": "286",
+          "coverage": "19.79370629",
+          "good coverage": "True",
+          "number of cells": "1"
+        }
+      ],
+      "unique_counts": {
+        "guide identity": {
+          "62(mod)_pBA581": 1769,
+          "SPI1_pDS255": 696,
+          "EP300_pDS268": 632,
+          "SNAI1_pDS266": 562,
+          "ZNF326_pDS262": 557,
+          "BHLHE40_pDS258": 553,
+          "CREB1_pDS269": 506,
+          "DDIT3_pDS263": 477,
+          "*": 6
+        },
+        "good coverage": {
+          "True": 5680,
+          "False": 78
+        },
+        "number of cells": {
+          "1": 5322,
+          "2": 341,
+          "0": 76,
+          "3": 16,
+          "4": 2,
+          "5": 1
+        }
+      },
+      "candidate_annotation_columns": [
+        "cell BC",
+        "guide identity",
+        "number of cells"
+      ]
+    },
+    "GSM2406677_10X005": {
+      "rows": 14856,
+      "columns": 7,
+      "column_names": [
+        "cell BC",
+        "guide identity",
+        "read count",
+        "UMI count",
+        "coverage",
+        "good coverage",
+        "number of cells"
+      ],
+      "dtypes": {
+        "cell BC": "str",
+        "guide identity": "str",
+        "read count": "int64",
+        "UMI count": "int64",
+        "coverage": "float64",
+        "good coverage": "bool",
+        "number of cells": "int64"
+      },
+      "preview": [
+        {
+          "cell BC": "ACGGTATGCTTAGG-3",
+          "guide identity": "PERK_IRE1_pMJ154",
+          "read count": "3907",
+          "UMI count": "645",
+          "coverage": "6.05736434109",
+          "good coverage": "True",
+          "number of cells": "1"
+        },
+        {
+          "cell BC": "ACAATCCTACCCTC-1",
+          "guide identity": "PERK_IRE1_pMJ154",
+          "read count": "2173",
+          "UMI count": "455",
+          "coverage": "4.77582417582",
+          "good coverage": "True",
+          "number of cells": "1"
+        },
+        {
+          "cell BC": "ACGAACACGTGCTA-3",
+          "guide identity": "ATF6_PERK_IRE1_pMJ158",
+          "read count": "2093",
+          "UMI count": "322",
+          "coverage": "6.5",
+          "good coverage": "True",
+          "number of cells": "1"
+        },
+        {
+          "cell BC": "CTGTGAGATTGGTG-1",
+          "guide identity": "ATF6_PERK_IRE1_pMJ158",
+          "read count": "1594",
+          "UMI count": "369",
+          "coverage": "4.31978319783",
+          "good coverage": "True",
+          "number of cells": "1"
+        },
+        {
+          "cell BC": "ATGTTGCTAATCGC-2",
+          "guide identity": "3x_neg_ctrl_pMJ144-2",
+          "read count": "1537",
+          "UMI count": "228",
+          "coverage": "6.74122807018",
+          "good coverage": "True",
+          "number of cells": "1"
+        }
+      ],
+      "unique_counts": {
+        "guide identity": {
+          "3x_neg_ctrl_pMJ144-1": 1730,
+          "ATF6_PERK_IRE1_pMJ158": 1711,
+          "ATF6_only_pMJ145": 1709,
+          "IRE1_only_pMJ148": 1703,
+          "3x_neg_ctrl_pMJ144-2": 1667,
+          "PERK_IRE1_pMJ154": 1647,
+          "ATF6_PERK_pMJ150": 1617,
+          "PERK_only_pMJ146": 1574,
+          "ATF6_IRE1_pMJ152": 1462,
+          "*": 14,
+          "PSMD12_pDS009": 6,
+          "PSMA1_pDS007": 4,
+          "IER3IP1_pDS003": 3,
+          "C7orf26_pDS004": 2,
+          "XBP1_pBA578": 2,
+          "Gal4-4(mod)_pBA582": 1,
+          "XBP1_pBA579": 1,
+          "ATF4_pBA576": 1,
+          "YIPF5_pDS001": 1,
+          "SNAI1_pDS266": 1
+        },
+        "good coverage": {
+          "True": 14294,
+          "False": 562
+        },
+        "number of cells": {
+          "1": 13525,
+          "2": 735,
+          "0": 562,
+          "3": 30,
+          "4": 2,
+          "7": 1,
+          "5": 1
+        }
+      },
+      "candidate_annotation_columns": [
+        "cell BC",
+        "guide identity",
+        "number of cells"
+      ]
+    },
+    "GSM2406681_10X010": {
+      "rows": 65257,
+      "columns": 7,
+      "column_names": [
+        "cell BC",
+        "guide identity",
+        "read count",
+        "UMI count",
+        "coverage",
+        "good coverage",
+        "number of cells"
+      ],
+      "dtypes": {
+        "cell BC": "str",
+        "guide identity": "str",
+        "read count": "int64",
+        "UMI count": "int64",
+        "coverage": "float64",
+        "good coverage": "bool",
+        "number of cells": "int64"
+      },
+      "preview": [
+        {
+          "cell BC": "TAATGTGAACTGGT-6",
+          "guide identity": "IARS2_pDS090",
+          "read count": "46452",
+          "UMI count": "1557",
+          "coverage": "29.83429672",
+          "good coverage": "True",
+          "number of cells": "1"
+        },
+        {
+          "cell BC": "GAAGATGATCTTCA-3",
+          "guide identity": "SPCS3_pDS402",
+          "read count": "25637",
+          "UMI count": "1090",
+          "coverage": "23.52018349",
+          "good coverage": "True",
+          "number of cells": "1"
+        },
+        {
+          "cell BC": "GCGTAAACAGTCGT-2",
+          "guide identity": "CHERP_pDS024",
+          "read count": "21083",
+          "UMI count": "817",
+          "coverage": "25.80538556",
+          "good coverage": "True",
+          "number of cells": "1"
+        },
+        {
+          "cell BC": "TTCGTATGCTTTAC-5",
+          "guide identity": "SLMO2_pDS433",
+          "read count": "20760",
+          "UMI count": "756",
+          "coverage": "27.46031746",
+          "good coverage": "True",
+          "number of cells": "1"
+        },
+        {
+          "cell BC": "AACTTGCTAACTGC-10",
+          "guide identity": "XRN1_pDS411",
+          "read count": "19604",
+          "UMI count": "824",
+          "coverage": "23.79126214",
+          "good coverage": "True",
+          "number of cells": "1"
+        }
+      ],
+      "unique_counts": {
+        "good coverage": {
+          "True": 59219,
+          "False": 6038
+        },
+        "number of cells": {
+          "1": 50613,
+          "2": 7636,
+          "0": 5866,
+          "3": 994,
+          "4": 129,
+          "5": 15,
+          "6": 2,
+          "9": 2
+        }
+      },
+      "candidate_annotation_columns": [
+        "cell BC",
+        "guide identity",
+        "number of cells"
+      ]
+    }
+  },
+  "interpretation": "This stage organizes and audits raw perturbation data. It does not generate functional compensation labels. Those require independent functional evidence beyond expression changes."
+}

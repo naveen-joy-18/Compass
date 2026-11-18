@@ -1,0 +1,11 @@
+target_gene,candidate_pairs_evaluated,known_positive_pairs,positive_hits_top_20,precision_top_20,recall_top_20
+ARID1B,4,1,1,0.25,1.0
+CREBBP,4,1,1,0.25,1.0
+EP300,4,1,1,0.25,1.0
+GSK3A,4,1,1,0.25,1.0
+GSK3B,4,1,1,0.25,1.0
+MAP2K1,4,1,1,0.25,1.0
+PIK3CB,4,1,1,0.25,1.0
+SMARCA2,4,1,1,0.25,1.0
+SMARCA4,5,1,1,0.2,1.0
+WWTR1,4,1,1,0.25,1.0

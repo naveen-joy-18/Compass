@@ -1,0 +1,68 @@
+{
+  "samples": [
+    {
+      "sample_id": "GSM2406675_10X001",
+      "matrix_genes": 35635,
+      "matrix_cells": 5768,
+      "gene_annotation_rows": 35635,
+      "barcode_rows": 5768,
+      "identity_rows": 5758,
+      "matched_cells": 5758,
+      "unmatched_matrix_barcodes": 10,
+      "unmatched_identity_barcodes": 0,
+      "duplicate_matrix_barcodes": 0,
+      "duplicate_identity_barcodes": 0,
+      "conflicting_guide_assignments": 0,
+      "unique_guide_identities": 9,
+      "annotated_cell_fraction": 0.9982662968099861,
+      "matrix_nnz": 14751450,
+      "matrix_orientation": "genes_by_cells"
+    },
+    {
+      "sample_id": "GSM2406677_10X005",
+      "matrix_genes": 32738,
+      "matrix_cells": 15006,
+      "gene_annotation_rows": 32738,
+      "barcode_rows": 15006,
+      "identity_rows": 14856,
+      "matched_cells": 14812,
+      "unmatched_matrix_barcodes": 194,
+      "unmatched_identity_barcodes": 44,
+      "duplicate_matrix_barcodes": 0,
+      "duplicate_identity_barcodes": 0,
+      "conflicting_guide_assignments": 0,
+      "unique_guide_identities": 20,
+      "annotated_cell_fraction": 0.9870718379314941,
+      "matrix_nnz": 63553399,
+      "matrix_orientation": "genes_by_cells"
+    },
+    {
+      "sample_id": "GSM2406681_10X010",
+      "matrix_genes": 32738,
+      "matrix_cells": 65337,
+      "gene_annotation_rows": 32738,
+      "barcode_rows": 65337,
+      "identity_rows": 65257,
+      "matched_cells": 65257,
+      "unmatched_matrix_barcodes": 80,
+      "unmatched_identity_barcodes": 0,
+      "duplicate_matrix_barcodes": 0,
+      "duplicate_identity_barcodes": 0,
+      "conflicting_guide_assignments": 0,
+      "unique_guide_identities": 114,
+      "annotated_cell_fraction": 0.9987755789215912,
+      "matrix_nnz": 237812947,
+      "matrix_orientation": "genes_by_cells"
+    }
+  ],
+  "total_matrix_cells": 86111,
+  "total_matched_cells": 85827,
+  "total_unmatched_matrix_barcodes": 284,
+  "total_unique_guide_strings_across_sample_rows": 130,
+  "outputs": {
+    "guide_counts": "C:\\Users\\Naveen Joy\\Desktop\\BA\\preprocessed\\GSE90546_QC\\alignment\\ALL_samples_guide_identity_counts.csv",
+    "cell_mapping": "C:\\Users\\Naveen Joy\\Desktop\\BA\\preprocessed\\GSE90546_QC\\alignment\\ALL_samples_cell_to_guide.csv.gz",
+    "gene_annotations": "C:\\Users\\Naveen Joy\\Desktop\\BA\\preprocessed\\GSE90546_QC\\alignment\\ALL_samples_gene_annotations.csv"
+  },
+  "warning": "Guide classes are provisional string-based categories. Confirm control identities and target-gene mappings from the original study documentation before using them as labels."
+}

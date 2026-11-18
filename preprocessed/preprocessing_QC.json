@@ -1,0 +1,33 @@
+{
+    "project": "CRLP",
+    "input_files": {
+        "effect": "CRISPRGeneEffect.csv",
+        "expression": "OmicsExpressionProteinCodingGenesTPMLogp1.csv",
+        "model": "Model.csv"
+    },
+    "metadata_models": 2554,
+    "common_models": 1123,
+    "effect_gene_columns": 18434,
+    "expression_gene_columns": 19205,
+    "common_genes": 18247,
+    "effect": {
+        "output": "C:\\Users\\Naveen Joy\\Desktop\\BA\\preprocessed\\CRISPRGeneEffect_matched.csv.gz",
+        "rows_written": 1123,
+        "gene_count": 18247,
+        "missing_values": 679417,
+        "total_values": 20491381
+    },
+    "expression": {
+        "output": "C:\\Users\\Naveen Joy\\Desktop\\BA\\preprocessed\\Expression_matched.csv.gz",
+        "rows_written": 1123,
+        "gene_count": 18247,
+        "missing_values": 0,
+        "total_values": 20491381
+    },
+    "outputs": {
+        "metadata": "C:\\Users\\Naveen Joy\\Desktop\\BA\\preprocessed\\Model_metadata_matched.csv",
+        "effect": "C:\\Users\\Naveen Joy\\Desktop\\BA\\preprocessed\\CRISPRGeneEffect_matched.csv.gz",
+        "expression": "C:\\Users\\Naveen Joy\\Desktop\\BA\\preprocessed\\Expression_matched.csv.gz",
+        "genes": "C:\\Users\\Naveen Joy\\Desktop\\BA\\preprocessed\\common_genes.txt"
+    }
+}

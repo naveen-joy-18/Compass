@@ -1,0 +1,8 @@
+configuration,n_features,status,AUROC,AUPRC,MCC,n,positives,negatives,accuracy,precision,recall,f1,mcc,specificity,TN,FP,FN,TP
+sequence_only,0,NOT EVALUATED: feature group absent,,,,,,,,,,,,,,,,
+network_only,0,NOT EVALUATED: feature group absent,,,,,,,,,,,,,,,,
+expression_only,6,evaluated,0.9161290322580645,0.8085299422799422,,41.0,10.0,31.0,0.8780487804878049,0.7777777777777778,0.7,0.7368421052631579,0.6593091991408011,0.9354838709677419,29.0,2.0,3.0,7.0
+dependency_only,8,evaluated,0.9451612903225806,0.8417063492063491,,41.0,10.0,31.0,0.9024390243902439,0.8,0.8,0.8,0.7354838709677419,0.9354838709677419,29.0,2.0,2.0,8.0
+sequence_plus_network,0,NOT EVALUATED: feature group absent,,,,,,,,,,,,,,,,
+integrated_available_groups,14,evaluated,0.9419354838709677,0.7998656898656898,,41.0,10.0,31.0,0.9024390243902439,0.8,0.8,0.8,0.7354838709677419,0.9354838709677419,29.0,2.0,2.0,8.0
+complete_model_all_numeric_features,14,evaluated,0.9451612903225807,0.8117704517704517,,41.0,10.0,31.0,0.9024390243902439,0.8,0.8,0.8,0.7354838709677419,0.9354838709677419,29.0,2.0,2.0,8.0

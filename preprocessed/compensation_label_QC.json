@@ -1,0 +1,12 @@
+{
+    "total_evidence_records": 41,
+    "positive_records": 10,
+    "negative_records": 31,
+    "uncertain_records": 0,
+    "training_records": 41,
+    "unique_target_genes": 10,
+    "unique_candidate_genes": 41,
+    "unique_gene_pairs": 41,
+    "training_positive": 10,
+    "training_negative": 31
+}

@@ -1,0 +1,15 @@
+feature,mean_AUPRC_drop,sd_AUPRC_drop
+dependency_correlation,0.3833333333333333,0.12923385349392355
+candidate_dependency_std,0.07942857142857143,0.11681593948952713
+expression_correlation,0.030000000000000006,0.05055250296034369
+candidate_expression_mean,0.0,0.0
+target_expression_std,0.0,0.0
+candidate_dependency_missing_fraction,0.0,0.0
+target_dependency_std,0.0,0.0
+target_dependency_missing_fraction,0.0,0.0
+dependency_mean_difference,-0.0033333333333333396,0.007453559924999313
+expression_mean_difference,-0.00666666666666667,0.014907119849998604
+target_dependency_mean,-0.010000000000000005,0.02236067977499791
+candidate_expression_std,-0.010000000000000005,0.02236067977499791
+target_expression_mean,-0.010000000000000005,0.02236067977499791
+candidate_dependency_mean,-0.016666666666666673,0.03726779962499651

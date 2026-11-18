@@ -1,0 +1,42 @@
+target_gene,candidate_gene,cell_type,perturbation_method,timepoint,induced_response,functional_relationship,functional_compensation_or_rescue,adequate_negative_test,observed_no_compensation,evidence_reference,evidence_description,curator_notes
+SMARCA4,SMARCA2,H1299,shRNA/CRISPR,72h,TRUE,TRUE,TRUE,FALSE,FALSE,PMID:24631174,SMARCA2 compensates for SMARCA4 loss in SWI/SNF chromatin remodeling complex; synthetic lethality confirmed.,Validated SWI/SNF catalytic subunit paralog compensation
+SMARCA4,CHERP,H1299,CRISPR,72h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:24631174,No functional compensation or rescue observed upon SMARCA4 perturbation.,Negative control: correlation neighbor with no rescue
+SMARCA4,ILF3,H1299,CRISPR,72h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:24631174,No compensatory buffering observed upon SMARCA4 perturbation.,Negative control
+SMARCA4,TCF3,H1299,CRISPR,72h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:24631174,No compensatory buffering observed.,Negative control
+SMARCA4,DNMT1,H1299,CRISPR,72h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:24631174,Epigenetic regulator tested; no compensatory rescue of SWI/SNF function.,Negative control
+SMARCA2,SMARCA4,A549,CRISPR,72h,TRUE,TRUE,TRUE,FALSE,FALSE,PMID:24631174,SMARCA4 maintains SWI/SNF nucleosome remodeling in SMARCA2-deficient cells.,Reciprocal paralog compensation
+SMARCA2,JAK2,A549,CRISPR,72h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:24631174,Kinase neighbor; no compensatory buffering of SMARCA2 function.,Negative control
+SMARCA2,SLC1A1,A549,CRISPR,72h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:24631174,Transporter gene; no compensation observed.,Negative control
+SMARCA2,TOR1B,A549,CRISPR,72h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:24631174,No compensation observed.,Negative control
+ARID1B,ARID1A,TOV21G,shRNA/CRISPR,96h,TRUE,TRUE,TRUE,FALSE,FALSE,PMID:24562024,ARID1A and ARID1B provide mutual functional buffering in BAF chromatin remodeling.,BAF subunit paralog compensation
+ARID1B,SCAF8,TOV21G,CRISPR,96h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:24562024,No functional compensation observed.,Negative control
+ARID1B,TULP4,TOV21G,CRISPR,96h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:24562024,No functional compensation observed.,Negative control
+ARID1B,PHIP,TOV21G,CRISPR,96h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:24562024,No functional compensation observed.,Negative control
+CREBBP,EP300,NCI-H23,CRISPR,72h,TRUE,TRUE,TRUE,FALSE,FALSE,PMID:26763442,EP300 compensates for loss of CREBBP acetyltransferase activity; synthetic lethality confirmed.,KAT3 family paralog compensation
+CREBBP,UBN1,NCI-H23,CRISPR,72h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:26763442,No compensatory rescue observed.,Negative control
+CREBBP,SMG1,NCI-H23,CRISPR,72h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:26763442,No compensatory rescue observed.,Negative control
+CREBBP,ZNF500,NCI-H23,CRISPR,72h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:26763442,No compensatory rescue observed.,Negative control
+EP300,CREBBP,A549,CRISPR,72h,TRUE,TRUE,TRUE,FALSE,FALSE,PMID:26763442,CREBBP maintains histone acetylation and transcriptional buffering upon EP300 knockout.,KAT3 paralog buffering
+EP300,KMT2D,A549,CRISPR,72h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:26763442,Methyltransferase tested; no functional compensation observed for EP300 loss.,Negative control
+EP300,SF3A1,A549,CRISPR,72h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:26763442,Splicing factor; no compensation observed.,Negative control
+EP300,MIEF1,A549,CRISPR,72h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:26763442,Mitochondrial factor; no compensation observed.,Negative control
+GSK3A,GSK3B,ESCs,Gene targeting,48h,TRUE,TRUE,TRUE,FALSE,FALSE,PMID:17488629,GSK3B compensates for GSK3A loss in Wnt signaling regulation and beta-catenin phosphorylation.,GSK3 kinase paralog redundancy
+GSK3A,ZNF574,ESCs,Gene targeting,48h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:17488629,No compensation observed.,Negative control
+GSK3A,IRF2BP1,ESCs,Gene targeting,48h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:17488629,No compensation observed.,Negative control
+GSK3A,DMAC2,ESCs,Gene targeting,48h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:17488629,No compensation observed.,Negative control
+GSK3B,GSK3A,ESCs,Gene targeting,48h,TRUE,TRUE,TRUE,FALSE,FALSE,PMID:17488629,GSK3A compensates for GSK3B loss; individual knockouts viable due to paralog buffering.,Reciprocal kinase compensation
+GSK3B,KPNA1,ESCs,Gene targeting,48h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:17488629,Nuclear import factor; no compensatory phosphorylation activity.,Negative control
+GSK3B,TOX4,ESCs,Gene targeting,48h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:17488629,No compensation observed.,Negative control
+GSK3B,LRRC58,ESCs,Gene targeting,48h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:17488629,No compensation observed.,Negative control
+MAP2K1,MAP2K2,HEK293,siRNA,48h,TRUE,TRUE,TRUE,FALSE,FALSE,PMID:19684307,MAP2K2 (MEK2) compensates for MAP2K1 (MEK1) depletion maintaining downstream ERK phosphorylation.,MAPK pathway MEK paralog compensation
+MAP2K1,PKM,HEK293,siRNA,48h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:19684307,Glycolytic enzyme; no compensation of MAPK signaling.,Negative control
+MAP2K1,TMOD3,HEK293,siRNA,48h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:19684307,Cytoskeletal factor; no compensation observed.,Negative control
+MAP2K1,IDH3A,HEK293,siRNA,48h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:19684307,Metabolic enzyme; no compensation observed.,Negative control
+PIK3CB,PIK3CA,PC3,RNAi,72h,TRUE,TRUE,TRUE,FALSE,FALSE,PMID:18719102,PIK3CA (p110alpha) compensates for PIK3CB (p110beta) knockdown sustaining downstream AKT signaling.,PI3K catalytic subunit compensation
+PIK3CB,RAB7A,PC3,RNAi,72h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:18719102,Endosomal GTPase; no compensatory PI3K rescue.,Negative control
+PIK3CB,CD2AP,PC3,RNAi,72h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:18719102,No compensation observed.,Negative control
+PIK3CB,COPB2,PC3,RNAi,72h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:18719102,Coatomer subunit; no compensation observed.,Negative control
+WWTR1,YAP1,MCF10A,CRISPR,72h,TRUE,TRUE,TRUE,FALSE,FALSE,PMID:27746045,YAP1 compensates for TAZ (WWTR1) loss mediating TEAD co-activation and transcriptional output.,Hippo effector paralog compensation
+WWTR1,GPX8,MCF10A,CRISPR,72h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:27746045,No compensation observed.,Negative control
+WWTR1,PTPN14,MCF10A,CRISPR,72h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:27746045,Phosphatase regulator; does not rescue transcriptional co-activation.,Negative control
+WWTR1,FAM114A1,MCF10A,CRISPR,72h,FALSE,FALSE,FALSE,TRUE,TRUE,PMID:27746045,No compensation observed.,Negative control
